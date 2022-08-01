@@ -56,21 +56,40 @@ margin:8px auto;
 
 .menu{
 z-index:10;
-position:absolute;
+position:fixed;
 list-style:none;
-top:10px;
-right:30px;
+top:0px;
 cursor: pointer;
-
+background:white;
+width:100%;
+margin-top:0px;
 }
 
 .link{
-
-float:left;
+display:inline;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size:20px;
 padding-top:5px;
 padding-bottom:5px;
 padding-left:9px;
 padding-right:9px;    
+}
+.link:hover{
+font-size:25px;
+text-decoration:underline;
+
+}
+#writings a {
+
+    text-decoration: underline !important;
+    color:#864ee6 !important;
+}
+
+#contact {
+    background: pink;
+}
+
+.contact_1 h3 {
+display:inline;
+
 }
